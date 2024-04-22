@@ -1,0 +1,181 @@
+body {
+    overflow-x: hidden;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+#intro {
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    outline: none;
+    transition: transform 1s ease;
+    transform: translateX(1200px);
+    padding: 50px;
+    width: 100%;
+    display: flex;
+}
+
+#intro:hover {
+    transform: translateX(-13px);
+}
+
+#info {
+    transform: translate(160px, 30px);
+    padding: 18px;
+    margin-right: 200px;
+    width: 580px;
+}
+
+#un {
+    transform: translate(195px, -70px);
+}
+
+#profile {
+    transform: translate(-230px, 30px);
+    display: flex;
+    width: 580px;
+}
+
+#profile_img {
+    height: 230px;
+    width: 230px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+#profile_img:hover {
+    animation: spin 3s linear;
+    transition: transform 1s ease;
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+
+#viewg {
+    height: 30px;
+    width: 200px;
+    color: white;
+    background-color: blue;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform 1s ease;
+}
+
+#viewg:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#achievements {
+    border: 3px solid white;
+    border-radius: 50px;
+    display: flex;
+}
+
+#yolo {
+    transform: translate(310px, 5px);
+}
+
+#pullshark {
+    transform: translate(370px, 5px);
+}
+
+#yoloimg {
+    border: none;
+    outline: none;
+}
+
+#yoloimg:hover {
+    animation: spin 3s linear;
+    transition: transform 1s ease;
+}
+
+#pullsharkimg {
+    border: none;
+    outline: none;
+}
+
+#pullsharkimg:hover {
+    animation: spin 3s linear;
+    transition: transform 1s ease;
+}
+
+#fav-repo {
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.repos{
+    display: flex;
+    padding: 50px;
+    transform: translate(115px, -20px);
+}
+
+.repos2{
+    display: flex;
+    padding: 50px;
+    transform: translate(-20px, -20px);
+}
+
+.logos{
+    transform: translate(30px, 4px);
+    border: none;
+    outline: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.logos2{
+    transform: translate(-285px, -20px);
+    border: none;
+    outline: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.openw{
+    height: 50px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(121, 121, 238);
+    color: white;
+    font-weight: bold;
+    transition: transform 1s ease;
+
+}
+
+.openw:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#642bff, #ff22e6);
+    border-radius: 20px;
+}
